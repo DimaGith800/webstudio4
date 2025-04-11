@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header { 
+    border-bottom: solid 1px #ECECEC;
+    padding-bottom: 15px;
+}
+.header {
+    width: 100%; 
+    max-width: 1170px; 
+    margin: 0 auto; 
+    margin-top: 32px; 
+    margin-bottom: 15px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+.header_container {
+    width: 100%;
+    max-width: 519px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_container--logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.52px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;  
+    
+}
+
+.header_container--nav {
+    margin-top: 2px;
+}
+.header_container--nav a {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    width: 100%;
+    max-width: 281px;
+    margin: 32px 17px;
+}
+.header_container--nav--portfolio {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    color:#212121;
+}
+.header_container--nav--link {
+    color: #212121;
+}
+
+.header_container--nav a:hover {
+    color: #2196F3;
+}
+
+.header_content {
+    width: 100%;
+    max-width: 333px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.header_content--email {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    color: #757575;
+}
+
+.header_content--phone {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    color: #757575;
+}
+.header_content a svg {
+    margin-right: 5px;
+}
+
+.header_content a:hover {
+    color: #2196F3;
+}
+.header_content--email svg path {
+    fill: #757575;
+}
+
+.header_content--email:hover svg path {
+    fill: #2196F3;
+}
+.header_content a:hover {
+    color: #2196F3;
+}
+.header_content--phone svg path {
+    fill: #757575;
+}
+
+.header_content--phone:hover svg path {
+    fill: #2196F3;
+}
+
+.main_container--div--links {
+    width: 100%;
+    max-width:575px;
+    margin: 0 auto;
+    margin-top: 94px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.main_container--div--links button {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    color: #212121;
+    padding: 6px 22px;
+    border-color: #FFFFFF;
+    background-color:#F5F4FA;
+    border-radius: 4px;
+    border: none;
+    box-shadow: none;
+}
+
+.main_container--div--links button:hover {
+    background-color:#2196F3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.main_container--content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 94px;
+}
+.main_container--content--offer {
+    margin-top: 34px;
+    max-width: 370px;
+    border-left: solid 1px #EEEEEE;
+    border-right:  solid 1px #EEEEEE;
+    border-bottom: solid 1px #EEEEEE;
+}
+.main_container--content--offer:hover {
+    border: 1px solid #EEEEEE;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+              0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+              0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+.main_container--content--offer--desc {
+    padding-top: 20px;
+    width: 100%;
+    max-width: 322px;
+    margin: 0 auto;
+}
+.main_container--content--offer--desc--title {
+    margin-bottom: 4px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.main_container--content--offer--desc--kind {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+.footer {
+    background-color: #2F303A;
+}
+.footer_container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.footer_container--info--logo {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.footer_container--info--content {
+    padding-bottom: 60px;
+}
+.footer_container--info--content--address {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#FFFFFF;
+}
+
+.footer_container--info--content--contacts a {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    color: #757575;
+}
+.footer_container--join {
+    width: 100%;
+    max-width: 206px;
+}
+.footer_container--join--title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    margin-bottom: 20px;
+}
+.footer_container--join--buttons {
+    width: 100%;
+    max-width: 206px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_container--join--buttons--button {
+    padding: 12px 12px 12px 12px;
+    background-color: #FFFFFF1A;
+    box-shadow: none;
+    border: none;
+    border-radius: 50%;
+}
+.footer_container--join--buttons--button:hover {
+    background-color: #2196F3;
+    cursor: pointer;
+}
