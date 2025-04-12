@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header { 
     border-bottom: solid 1px #ECECEC;
     padding-bottom: 15px;
@@ -176,7 +177,6 @@ header {
     margin-bottom: 210px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px #00000026;
-
 }
 .advantage_container {
     width: 100%;
@@ -323,7 +323,7 @@ header {
     margin-bottom: 30px;
 }
 .team_container--content--media--button {
-    padding: 12px 12px 12px 12px;
+    padding: 12px 12px 10px 12px;
     background-color: #FFFFFF1A;
     box-shadow: none;
     border: none;
@@ -368,27 +368,33 @@ header {
     cursor: pointer;
 }
 .clients_container--svg svg path {
-    fill: #AFB1B8; /* Default fill color */
+    fill: #AFB1B8;
 }
   
 .clients_container--svg svg rect {
-    stroke: #AFB1B8; /* Default border color */
+    stroke: #AFB1B8;
 }
   
 .clients_container--svg:hover svg path {
-    fill: #2196F3; /* Change to your desired hover fill color */
+    fill: #2196F3; 
 }
   
 .clients_container--svg:hover svg rect {
-    stroke: #2196F3; /* Change to your desired hover border color */
+    stroke: #2196F3; 
 }
-.footer {
+footer {
     background-color: #2F303A;
 }
-.footer_container {
+.footer {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
+}
+.footer_container {
+    width: 100%;
+    max-width: 507px;
+    display: flex;
+    justify-content: space-between;
 }
 .footer_container--info--logo {
     margin-top: 60px;
@@ -424,6 +430,7 @@ header {
 .footer_container--join {
     width: 100%;
     max-width: 206px;
+    margin-top: 72px;
 }
 .footer_container--join--title {
     font-family: Roboto;
@@ -442,7 +449,7 @@ header {
     justify-content: space-between;
 }
 .footer_container--join--buttons--button {
-    padding: 12px 12px 12px 12px;
+    padding: 12px 12px 10px 12px;
     background-color: #FFFFFF1A;
     box-shadow: none;
     border: none;

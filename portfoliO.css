@@ -213,13 +213,19 @@ header {
     margin-top: 4px;
     margin-bottom: 20px;
 }
-.footer {
+footer {
     background-color: #2F303A;
 }
-.footer_container {
+.footer {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
+}
+.footer_container {
+    width: 100%;
+    max-width: 507px;
+    display: flex;
+    justify-content: space-between;
 }
 .footer_container--info--logo {
     margin-top: 60px;
@@ -255,6 +261,7 @@ header {
 .footer_container--join {
     width: 100%;
     max-width: 206px;
+    margin-top: 72px;
 }
 .footer_container--join--title {
     font-family: Roboto;
@@ -273,7 +280,7 @@ header {
     justify-content: space-between;
 }
 .footer_container--join--buttons--button {
-    padding: 12px 12px 12px 12px;
+    padding: 12px 12px 10px 12px;
     background-color: #FFFFFF1A;
     box-shadow: none;
     border: none;
